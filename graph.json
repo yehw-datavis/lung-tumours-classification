@@ -1,0 +1,1212 @@
+{
+  "id": 0,
+  "name": "Lung",
+  "attr": {
+    "class": "Site",
+    "morphology_code": "",
+    "topography_code": "C34",
+    "rank": 1
+  },
+  "children": [
+    {
+      "id": 1,
+      "name": "Epithelial tumours",
+      "attr": {
+        "class": "Category",
+        "morphology_code": "",
+        "topography_code": "",
+        "rank": 2
+      },
+      "children": [
+        {
+          "id": 2,
+          "name": "Papillomas",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3
+          },
+          "children": [
+            {
+              "id": 3,
+              "name": "Squamous cell papilloma, NOS",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8052/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 4,
+              "name": "Squamous cell papilloma, inverted",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8053/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 5,
+              "name": "Glandular papilloma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8260/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 6,
+              "name": "Mixed squamous cell and glandular papilloma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8560/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Adenomas",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3
+          },
+          "children": [
+            {
+              "id": 8,
+              "name": "Sclerosing pneumocytoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8832/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 9,
+              "name": "Alveolar adenoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8251/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 10,
+              "name": "Papillary adenoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8260/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 11,
+              "name": "Bronchiolar adenoma / ciliated muconodular papillary tumour",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8140/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 12,
+              "name": "Mucinous cystadenoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8470/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 13,
+              "name": "Mucous gland adenoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8480/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Precursor glandular lesions",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3
+          },
+          "children": [
+            {
+              "id": 15,
+              "name": "Atypical adenomatous hyperplasia",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8250/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 16,
+              "name": "Adenocarcinoma in situ",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": [
+                {
+                  "id": 17,
+                  "name": "Adenocarcinoma in situ, non-mucinous",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8250/2",
+                    "topography_code": "",
+                    "rank": 5
+                  },
+                  "children": []
+                },
+                {
+                  "id": 18,
+                  "name": "Adenocarcinoma in situ, mucinous",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8253/2",
+                    "topography_code": "",
+                    "rank": 5
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Adenocarcinomas",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3,
+            "NSCLC": true
+          },
+          "children": [
+            {
+              "id": 20,
+              "name": "Minimally invasive adenocarcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": [
+                {
+                  "id": 21,
+                  "name": "Minimally invasive adenocarcinoma, non-mucinous",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8256/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                },
+                {
+                  "id": 22,
+                  "name": "Minimally invasive adenocarcinoma, mucinous",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8257/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 23,
+              "name": "Invasive non-mucinous adenocarcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": [
+                {
+                  "id": 24,
+                  "name": "Lepidic adenocarcinoma",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8250/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                },
+                {
+                  "id": 25,
+                  "name": "Acinar adenocarcinoma",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8551/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                },
+                {
+                  "id": 26,
+                  "name": "Papillary adenocarcinoma",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8260/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                },
+                {
+                  "id": 27,
+                  "name": "Micropapillary adenocarcinoma",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8265/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                },
+                {
+                  "id": 28,
+                  "name": "Solid adenocarcinoma",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8230/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "name": "Invasive mucinous adenocarcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8253/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": [
+                {
+                  "id": 30,
+                  "name": "Mixed invasive mucinous and non-mucinous adenocarcinoma",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8254/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 31,
+              "name": "Colloid adenocarcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8480/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": []
+            },
+            {
+              "id": 32,
+              "name": "Fetal adenocarcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8333/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": []
+            },
+            {
+              "id": 33,
+              "name": "Adenocarcinoma, enteric-type",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8144/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": []
+            },
+            {
+              "id": 34,
+              "name": "Adenocarcinoma, NOS",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8140/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "Squamous precursor lesions",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3
+          },
+          "children": [
+            {
+              "id": 36,
+              "name": "Squamous cell carcinoma in situ",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8070/2",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 37,
+              "name": "Mild squamous dysplasia",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8077/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 38,
+              "name": "Moderate squamous dysplasia",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8077/2",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 39,
+              "name": "Severe squamous dysplasia",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8077/2",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "Squamous cell carcinomas",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3,
+            "NSCLC": true
+          },
+          "children": [
+            {
+              "id": 41,
+              "name": "Squamous cell carcinoma, NOS",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8070/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": [
+                {
+                  "id": 42,
+                  "name": "Squamous cell carcinoma, keratinizing",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8071/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                },
+                {
+                  "id": 43,
+                  "name": "Squamous cell carcinoma, non-keratinizing",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8072/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                },
+                {
+                  "id": 44,
+                  "name": "Basaloid squamous cell carcinoma",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8083/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 45,
+              "name": "Lymphoepithelial carcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8082/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "name": "Large cell carcinomas",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3,
+            "NSCLC": true
+          },
+          "children": [
+            {
+              "id": 47,
+              "name": "Large cell carcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8012/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "Adenosquamous carcinomas",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3,
+            "NSCLC": true
+          },
+          "children": [
+            {
+              "id": 49,
+              "name": "Adenosquamous carcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8560/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "name": "Sarcomatoid carcinomas",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3,
+            "NSCLC": true
+          },
+          "children": [
+            {
+              "id": 51,
+              "name": "Pleomorphic carcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8022/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": [
+                {
+                  "id": 52,
+                  "name": "Giant cell carcinoma",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8031/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                },
+                {
+                  "id": 53,
+                  "name": "Spindle cell carcinoma",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8032/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 54,
+              "name": "Pulmonary blastoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8972/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": []
+            },
+            {
+              "id": 55,
+              "name": "Carcinosarcoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8980/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 56,
+          "name": "Other epithelial tumours",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3
+          },
+          "children": [
+            {
+              "id": 57,
+              "name": "NUT carcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8023/3",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 58,
+              "name": "Thoracic SMARCA4-deficient undifferentiated tumour",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8044/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 59,
+          "name": "Salivary gland-type tumours",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3
+          },
+          "children": [
+            {
+              "id": 60,
+              "name": "Pleomorphic adenoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8940/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 61,
+              "name": "Adenoid cystic carcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8200/3",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 62,
+              "name": "Epithelial-myoepithelial carcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8562/3",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 63,
+              "name": "Mucoepidermoid carcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8430/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": []
+            },
+            {
+              "id": 64,
+              "name": "Hyalinizing clear cell carcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8310/3",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 65,
+              "name": "Myoepithelioma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8982/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 66,
+              "name": "Myoepithelial carcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8982/3",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Lung neuroendocrine neoplasms",
+      "attr": {
+        "class": "Category",
+        "morphology_code": "",
+        "topography_code": "",
+        "rank": 2
+      },
+      "children": [
+        {
+          "id": 68,
+          "name": "Precursor lesion",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3
+          },
+          "children": [
+            {
+              "id": 69,
+              "name": "Diffuse idiopathic neuroendocrine cell hyperplasia",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8040/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 70,
+          "name": "Neuroendocrine tumours",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3
+          },
+          "children": [
+            {
+              "id": 71,
+              "name": "Carcinoid tumour, NOS / neuroendocrine tumour, NOS",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8240/3",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": [
+                {
+                  "id": 72,
+                  "name": "Typical carcinoid / neuroendocrine tumour, grade 1",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8240/3",
+                    "topography_code": "",
+                    "rank": 5
+                  },
+                  "children": []
+                },
+                {
+                  "id": 73,
+                  "name": "Atypical carcinoid / neuroendocrine tumour, grade 2",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8249/3",
+                    "topography_code": "",
+                    "rank": 5
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "name": "Neuroendocrine carcinomas",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3
+          },
+          "children": [
+            {
+              "id": 75,
+              "name": "Small cell carcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8041/3",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": [
+                {
+                  "id": 76,
+                  "name": "Combined small cell carcinoma",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8045/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 77,
+              "name": "Large cell neuroendocrine carcinoma",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8013/3",
+                "topography_code": "",
+                "rank": 4,
+                "NSCLC": true
+              },
+              "children": [
+                {
+                  "id": 78,
+                  "name": "Combined large cell neuroendocrine carcinoma",
+                  "attr": {
+                    "class": "Subtype",
+                    "morphology_code": "8013/3",
+                    "topography_code": "",
+                    "rank": 5,
+                    "NSCLC": true
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Tumours of ectopic tissues",
+      "attr": {
+        "class": "Category",
+        "morphology_code": "",
+        "topography_code": "",
+        "rank": 2
+      },
+      "children": [
+        {
+          "id": 80,
+          "name": "Melanoma",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "8720/3",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        },
+        {
+          "id": 81,
+          "name": "Meningioma",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "9530/0",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Mesenchymal tumours specific to the lung",
+      "attr": {
+        "class": "Category",
+        "morphology_code": "",
+        "topography_code": "",
+        "rank": 2
+      },
+      "children": [
+        {
+          "id": 83,
+          "name": "Pulmonary hamartoma",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "8992/0",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        },
+        {
+          "id": 84,
+          "name": "Chondroma",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "9220/0",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        },
+        {
+          "id": 85,
+          "name": "Diffuse lymphangiomatosis",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "9170/3",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        },
+        {
+          "id": 86,
+          "name": "Pleuropulmonary blastoma",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "8973/3",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        },
+        {
+          "id": 87,
+          "name": "Intimal sarcoma",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "9137/3",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        },
+        {
+          "id": 88,
+          "name": "Congenital peribronchial myofibroblastic tumour",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "8827/1",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        },
+        {
+          "id": 89,
+          "name": "Pulmonary myxoid sarcoma with EWSR1-CREB1 fusion",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "8842/3",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        },
+        {
+          "id": 90,
+          "name": "PEComatous tumours",
+          "attr": {
+            "class": "Family",
+            "morphology_code": "",
+            "topography_code": "",
+            "rank": 3
+          },
+          "children": [
+            {
+              "id": 91,
+              "name": "Lymphangioleiomyomatosis",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "9174/3",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 92,
+              "name": "PEComa, benign",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8714/0",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            },
+            {
+              "id": 93,
+              "name": "PEComa, malignant",
+              "attr": {
+                "class": "Type",
+                "morphology_code": "8714/3",
+                "topography_code": "",
+                "rank": 4
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Haematolymphoid tumours",
+      "attr": {
+        "class": "Category",
+        "morphology_code": "",
+        "topography_code": "",
+        "rank": 2
+      },
+      "children": [
+        {
+          "id": 95,
+          "name": "MALT lymphoma",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "9699/3",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        },
+        {
+          "id": 96,
+          "name": "Diffuse large B-cell lymphoma, NOS",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "9680/3",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        },
+        {
+          "id": 97,
+          "name": "Lymphomatoid granulomatosis, NOS",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "9766/1",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": [
+            {
+              "id": 98,
+              "name": "Lymphomatoid granulomatosis, grade 1",
+              "attr": {
+                "class": "Subtype",
+                "morphology_code": "9766/1",
+                "topography_code": "",
+                "rank": 5
+              },
+              "children": []
+            },
+            {
+              "id": 99,
+              "name": "Lymphomatoid granulomatosis, grade 2",
+              "attr": {
+                "class": "Subtype",
+                "morphology_code": "9766/1",
+                "topography_code": "",
+                "rank": 5
+              },
+              "children": []
+            },
+            {
+              "id": 100,
+              "name": "Lymphomatoid granulomatosis, grade 3",
+              "attr": {
+                "class": "Subtype",
+                "morphology_code": "9766/3",
+                "topography_code": "",
+                "rank": 5
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 101,
+          "name": "Intravascular large B-cell lymphoma",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "9712/3",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        },
+        {
+          "id": 102,
+          "name": "Langerhans cell histiocytosis",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "9751/1",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        },
+        {
+          "id": 103,
+          "name": "Erdheim-Chester disease",
+          "attr": {
+            "class": "Type",
+            "morphology_code": "9749/3",
+            "topography_code": "",
+            "rank": 4
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}
